@@ -37,12 +37,10 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.gis',
 ]
 
 THIRD_PARTY_APPS = [
     'rest_framework',
-    'rest_framework_gis',
     'rest_framework.authtoken',
     'django.contrib.sites',
     'rest_auth',
