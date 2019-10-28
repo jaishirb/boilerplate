@@ -59,11 +59,11 @@ LOGGING = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'project',
+        'USER': 'project',
+        'PASSWORD': 'project',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
