@@ -27,9 +27,9 @@ WSGI_APPLICATION = 'project.wsgi.local.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'apireto',
+        'NAME': 'boilerplate',
         'USER': 'admin',
-        'PASSWORD': '99102605167Jbc?!:',
+        'PASSWORD': '123asd456',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
